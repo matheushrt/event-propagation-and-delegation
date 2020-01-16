@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  float: right;
+  margin: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  font-size: medium;
+  transition: letter-spacing 3s;
+}
+
+div {
+  height: 90%;
+  width: 100%;
+  padding: 8rem;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.cornflowerblue {
+  background-color: cornflowerblue;
+}
+
+.snow {
+  background-color: snow;
+}
+
+button {
+  height: 10%;
+  width: 100%;
+  cursor: pointer;
+  font-size: x-large;
+}
