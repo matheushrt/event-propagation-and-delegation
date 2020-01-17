@@ -53,3 +53,22 @@ button {
   cursor: pointer;
   font-size: x-large;
 }
+
+.container {
+  height: 100%;
+  background-color: grey;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 1rem;
+  text-align: center;
+  margin: 2rem;
+  background-color: deepskyblue;
+  color: navy;
+}
